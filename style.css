@@ -1,0 +1,76 @@
+
+:root {
+  --bg-dark: #1e1e1e;
+  --text-dark: #f1f1f1;
+  --bg-light: #ffffff;
+  --text-light: #222222;
+  --accent: #00bcd4;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+header p {
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+
+.contact a {
+  display: inline-block;
+  margin: 0.4rem 0.8rem 0.4rem 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.dark {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.light {
+  background: var(--bg-light);
+  color: var(--text-light);
+}
+
+#themeToggle {
+  float: right;
+  margin-top: -1rem;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--accent);
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid var(--accent);
+}
